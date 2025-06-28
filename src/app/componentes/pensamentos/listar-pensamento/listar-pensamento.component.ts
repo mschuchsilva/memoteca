@@ -6,5 +6,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./listar-pensamento.component.css']
 })
 export class ListarPensamentoComponent {
-  listaPensamentos = [];
+  listaPensamentos = [
+    {
+      conteudo: 'Comunicação entre os componentes',
+      autoria: 'Mateus Schuch da Silva',
+      modelo: 'modelo3'
+    },
+    {
+      conteudo: 'Passo informações importantes entre os componentes',
+      autoria: 'Laura Reolon Schuch',
+      modelo: 'modelo1'
+    },
+    {
+      conteudo: 'Aprenda a cozinhar com o Angular',
+      autoria: 'Flaviani Cristina Zini Reolon Schuch',
+      modelo: 'modelo2'
+    }
+  ];
 }
